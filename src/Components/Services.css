@@ -1,0 +1,48 @@
+.main-div{
+    width: 80%;
+    margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+    
+}
+.services-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+.details{
+   width: 30%;
+    box-shadow: 10px 10px 8px 10px #888888;
+    margin-top: 3rem;
+}
+.details img{
+max-width: 100%;
+/* max-height: 100%; */
+}
+.dt{
+padding: 18px;
+}
+.dt button{
+    padding: 3px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.dt button:hover{
+    background: #0066ff;
+    color: white;
+    /* border: none; */
+    border: 1px solid #0066ff;
+}
+.dt h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+@media screen and (max-width:900px){
+    .services-container{
+        display: flex;
+        flex-direction: column;   }
+    .details{
+          width: 80%;  
+    }
+}

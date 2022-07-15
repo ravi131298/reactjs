@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.media{
+    /* background-color: aqua; */
+    display: none;
+    font-size: 18px;
+    padding: 10px 0px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.media a{
+    text-decoration: none;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+  
+    position: relative;
+   
+
+}
+@media screen and (max-width:1000px) {
+    .media{
+        display: flex;
+    }
+    .lll {
+        list-style: none;
+        position: relative;
+        text-decoration: none;
+        transition: 1s;
+    }
+    .eee{
+        position: absolute;
+        top: 19px;
+    }
+    .navbar-nav {
+        display: none;
+        
+    }
+}
